@@ -16,7 +16,6 @@ fn main() {
         Ok(cmd_args) => cmd_args,
     };
     
-/*
     // executing the command
     let exec_status_result = process::Command::new("find")
         .args(cmd_args)
@@ -41,7 +40,6 @@ fn main() {
             2
         },
     });
-*/
 }
 
 fn print_usage() {
